@@ -1,0 +1,9 @@
+@import "VariablesScss/Variables";
+
+.buttons{
+  button{
+    background-color: bisque;
+    font-weight: 600;
+    @extend %button
+  }
+}

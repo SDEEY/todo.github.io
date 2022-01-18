@@ -1,0 +1,16 @@
+@import "src/VariablesScss/Variables";
+
+.form{
+  margin: 20px 0 10px 0;
+  display: flex;
+  justify-content: center;
+  input{
+    width: 500px;
+    height: 40px;
+  }
+  button {
+    background-color: green;
+    color: white;
+    @extend %button
+  }
+}

@@ -1,0 +1,9 @@
+@import "src/VariablesScss/Variables";
+
+.listOfTodos {
+  button {
+    background-color: brown;
+    color: white;
+    @extend %button
+  }
+}
